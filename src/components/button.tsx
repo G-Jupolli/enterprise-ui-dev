@@ -11,6 +11,7 @@ const hover = '300';
 const active = '400';
 const border = '700';
 
+// @ts-ignore
 const Button = ({ children, variant = 'secondary' }: ButtonProps) => {
   return (
     <button
