@@ -1,6 +1,6 @@
-import colors from '@/colors.json';
 import { css } from '@emotion/css';
 import { ComponentPropsWithoutRef } from 'react';
+import colors from "tailwindcss/colors";
 
 type ButtonProps = {
   variant?: keyof typeof colors;
